@@ -142,7 +142,7 @@ const unFundedGamesCount = GAMES_JSON.filter(game => game.pledged < game.goal).l
 const totalBackers = GAMES_JSON.reduce((total, game) => total + game.backers, 0);
 
 // create a new DOM element containing the template string and append it to the description container
-const gameText = `A total of $${totalRaised.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, ${unfundedGamesCount} ${unfundedGamesCount === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!`;
+const gameText = `A total of $${totalRaised.toLocaleString()} has been raised for ${GAMES_JSON.length} games. Currently, ${unFundedGamesCount} ${unFundedGamesCount === 1 ? "game remains" : "games remain"} unfunded. We need your help to fund these amazing games!`;
 
 // create a new paragraph element
 const unfundedParagraph = document.createElement("p");
