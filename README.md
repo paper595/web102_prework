@@ -27,7 +27,7 @@ Here's a walkthrough of implemented features:
 - a games section that displays all games funded by Sea Monster Crowdfunding
 - games section with three button that displays unfunded games, funded games, and all games
 
-<img src='https://giphy.com/gifs/W735BbiVI0Avj3uBbf' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://giphy.com/gifs/W735BbiVI0Avj3uBbf
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Kap
